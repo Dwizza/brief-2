@@ -205,6 +205,6 @@ form input:focus {
     grid-template-rows: 110px 118px 120px 53px;
     background-color: rgba(0, 0, 0, 0.8);
     column-gap: 50px;
-    padding: 55px 32px;
+    padding: 20px 32px;
   }
 }

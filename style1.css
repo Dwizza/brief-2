@@ -163,7 +163,7 @@ nav {
     width: 300px;
     text-align: center;
     padding: 10px;
-    transform: translate(50px, 100px);
+    transform: translate(30px, 90px);
     color: #eaa068;
     border-radius: 20px;
     font-size: 20px;
@@ -174,7 +174,7 @@ nav {
     text-align: center;
     color: aliceblue;
     padding: 20px 10px;
-    transform: translate(50px, 110px);
+    transform: translate(30px, 120px);
     font-size: 20px;
     border-radius: 20px;
   }
