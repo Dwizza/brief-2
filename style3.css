@@ -191,7 +191,20 @@ form input:focus {
 .footer-contact p {
   color: white;
   padding: 30px;
+  text-align: center;
 }
 .footer-contact ul img:hover {
   transform: scale(1.2, 1.2);
+}
+@media screen and (max-width:515px) {
+  .contact {
+    border-radius: 22px;
+    width: 345px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 110px 118px 120px 53px;
+    background-color: rgba(0, 0, 0, 0.8);
+    column-gap: 50px;
+    padding: 55px 32px;
+  }
 }
