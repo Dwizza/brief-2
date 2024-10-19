@@ -199,12 +199,26 @@ form input:focus {
 @media screen and (max-width:515px) {
   .contact {
     border-radius: 22px;
-    width: 345px;
+    width: 300px;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 110px 118px 120px 53px;
+    grid-template-columns: auto;
+    grid-template-rows: 90px 90px 90px 120px 45px;
     background-color: rgba(0, 0, 0, 0.8);
     column-gap: 50px;
     padding: 20px 32px;
   }
+  .firstname{
+    grid-column: 2 span;
+  }
+  .lastname{
+    grid-column: 2 span;
+  }
+  .button:hover {
+    background-color: #eaa068;
+    color: black;
+    transform: scale(1.05, 1.05);
+    cursor: pointer;
+    letter-spacing: 0px;
+  }
+  
 }
