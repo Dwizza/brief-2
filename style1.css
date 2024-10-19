@@ -6,7 +6,7 @@
   margin: 0;
   font-family: Jaini-Regular;
 }
-body{
+body {
   background: #000;
 }
 .bg1 {
@@ -37,7 +37,7 @@ nav {
   text-decoration: none;
   color: rgb(226, 225, 225);
   font-size: 20px;
-  transition: 0.5s ;
+  transition: 0.5s;
 }
 .menu {
   display: flex;
@@ -67,7 +67,7 @@ nav {
 }
 .menu a:hover {
   color: #eaa068;
-  transform: scale(1.3,1.2);
+  transform: scale(1.3, 1.2);
 }
 
 .footer {
@@ -80,40 +80,40 @@ nav {
   align-items: center;
   gap: 0.4rem;
 }
-.footer-contact{
+.footer-contact {
   display: flex;
   flex-direction: column;
   align-items: center;
   background: #000;
 }
-.footer-contact ul{
+.footer-contact ul {
   display: flex;
   list-style: none;
   gap: 40px;
   padding: 20px;
 }
-.footer-contact ul img{
+.footer-contact ul img {
   height: 40px;
-  transition: 0.5s ;
+  transition: 0.5s;
 }
-.footer-contact h3{
+.footer-contact h3 {
   color: #eaa068;
   padding: 10px 30px 30px 30px;
   font-size: 40px;
 }
-.footer-contact p{
+.footer-contact p {
   color: white;
   padding: 30px;
 }
-.footer-contact ul img.google{
+.footer-contact ul img.google {
   position: relative;
-    bottom: 2px;
-    height: 45px;
+  bottom: 2px;
+  height: 45px;
 }
-.footer-contact ul img:hover{
-  transform: scale(1.2,1.2);
+.footer-contact ul img:hover {
+  transform: scale(1.2, 1.2);
 }
-@media screen and (max-width:620px) {
+@media screen and (max-width: 620px) {
   .titre {
     background-color: rgba(0, 0, 0, 0.7);
     width: 400px;
@@ -135,7 +135,7 @@ nav {
     border-radius: 20px;
   }
 }
-@media screen and (max-width:520px) {
+@media screen and (max-width: 520px) {
   .titre {
     background-color: rgba(0, 0, 0, 0.7);
     width: 400px;
@@ -145,6 +145,13 @@ nav {
     color: #eaa068;
     border-radius: 20px;
     font-size: 22px;
+  }
+  .bg1 {
+    padding-top: 0px;
+  }
+  nav {
+    width: 100%;
+    border-radius: 0px;
   }
   .description {
     background-color: rgba(0, 0, 0, 0.7);
@@ -157,7 +164,14 @@ nav {
     border-radius: 20px;
   }
 }
-@media screen and (max-width:470px) {
+@media screen and (max-width: 470px) {
+  .bg1 {
+    padding-top: 0px;
+  }
+  nav {
+    width: 100%;
+    border-radius: 0px;
+  }
   .titre {
     background-color: rgba(0, 0, 0, 0.7);
     width: 300px;
@@ -179,10 +193,3 @@ nav {
     border-radius: 20px;
   }
 }
-
-
-
-
-
-
-
